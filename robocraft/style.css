@@ -377,7 +377,7 @@ nav a {
     float: left;
     margin-top: 0.286em;
     margin-right: 0.5em;
-    height: 1.143em;
+    height: 3.843em;
 }
 
 #brand a img#retina-logo {
@@ -405,6 +405,15 @@ header.transparent.light nav > ul > li > a {
     color: #fff;
 }
 
+header.transparent.light #brand img{
+  display: none;
+}
+
+header.fixed-header.transparent.light #brand img{
+  display: block;
+}
+
+
 header.fixed-header.transparent.light #brand a,
 header.fixed-header.transparent.light nav > ul > li > a {
     color: #333;
@@ -422,10 +431,11 @@ nav > ul > li {
 }
 
 nav > ul > li {
-    padding: 0 0.778em;
+    padding: 0 0.878em;
+    margin-top: 0.5em  ;
     text-transform: uppercase;
     font-weight: 700;
-    font-size: 0.778em;
+    font-size: 0.978em;
     font-family: 'Larsseit', sans-serif;
     cursor: pointer;
 }
